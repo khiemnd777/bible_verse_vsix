@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Output build
+out/
+dist/
+*.vsix
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode settings
+.vscode/
+.vscode-test/
+
+# Env / secrets (nếu có)
+.env
+.env.local
+.env.*
+
+# macOS / system
+.DS_Store
+Thumbs.db
