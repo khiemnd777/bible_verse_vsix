@@ -4,6 +4,11 @@
   "description": "Daily Bible Verses",
   "version": "0.0.5",
   "publisher": "khiemnd777",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khiemnd777/bible_verse_vsix.git"
+  },
+  "license": "Unlicense",
   "engines": {
     "vscode": "^1.96.0"
   },

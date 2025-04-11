@@ -11,6 +11,13 @@ You can also trigger the `Bible: Random Verse` command to fetch a new verse inst
 
 - `Bible: Random Verse` – Display a new random verse.
 
-## 🌐 API
+---
 
-Verses are fetched from [labs.bible.org](https://labs.bible.org/).
+## ⚙️ Build and Package
+
+To build and generate a `.vsix` extension file:
+
+```bash
+yarn install        # Install dependencies
+yarn run package    # Compile source with esbuild
+vsce package        # Package the extension as a .vsix file
